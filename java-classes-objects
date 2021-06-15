@@ -1,0 +1,50 @@
+//Class Animal
+public class Animal{
+  public int height;
+  public int wight;
+  public String animalType;
+  public String bloodType;
+  }
+  
+//Class Reptile
+public class Reptile extends Animal{
+  public String DrySkin;
+  public String Backbone;
+  public string SoftShelledEggs;
+  }
+  
+//Class Fish
+public class Fish extends Animal{
+  public String LiveInWater;
+  public String HasGills;
+  }
+  
+//Class Birds
+public class Birds extends Animal{
+  public String AnimalsWithFeather;
+  public String CanFly;
+  }
+  
+//Class Crocodile
+public class Crocodile extends Reptile{
+  public String HardShelledEggs;
+  void showInfo() {
+        System.out.println("name : " + name);
+    }
+  }
+  
+//Class Eel
+public class Eel extends Fish{
+  public String ReleaseElectricCharge;
+  void showInfo() {
+        System.out.println("name : " + name);
+    }
+   }
+  
+//Class Crocodile
+public class Crocodile extends Birds{
+  void showInfo() {
+        System.out.println("name : " + name);
+    }
+  }
+  
